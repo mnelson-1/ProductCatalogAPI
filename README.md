@@ -23,8 +23,7 @@ This is a RESTful API for managing a product catalog, designed to support an e-c
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/ayadeleke/ProductCatalogAPI.git
-   cd product-catalog-api
+   git clone https://github.com/mnelson-1/ProductCatalogAPI.git
    ```
 
 2. Install dependencies: You can check package.json to see the list of dependencies to be installed.
@@ -55,9 +54,9 @@ This is a RESTful API for managing a product catalog, designed to support an e-c
   **Request Body:**
   ```json
   {
-    "name": "John Doe",
-    "email": "john@example.com",
-    "password": "securepassword",
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "testing.45",
     "role": "admin"
   }
   ```
@@ -69,8 +68,8 @@ This is a RESTful API for managing a product catalog, designed to support an e-c
   **Request Body:**
   ```json
   {
-    "email": "john@example.com",
-    "password": "securepassword"
+    "email": "test@example.com",
+    "password": "testing.45"
   }
   ```
 
